@@ -47,10 +47,10 @@ module.exports = {
 	test: false,
 
 	db: {
-		uri: process.env.MONGO_URI || "mongodb://localhost/" + pkg.config.dbName + "-dev",
+		uri: process.env.MONGO_URI || "mongodb://192.168.1.12/" + pkg.config.dbName + "-dev",
 		options: {
-			user: "",
-			pass: "",
+			user: "admin",
+			pass: "admin",
 			keepAlive: 1,
 			useNewUrlParser: true
 		}
