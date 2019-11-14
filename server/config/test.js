@@ -27,7 +27,7 @@ module.exports = {
 	test: true,
 
 	db: {
-		uri: "mongodb://localhost/" + pkg.config.dbName + "-test",
+		uri: "mongodb://192.168.1.12/" + pkg.config.dbName + "-test",
 		options: {
 			user: "",
 			pass: ""
