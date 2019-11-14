@@ -9,6 +9,12 @@
 							i.fa.fa-home
 						span.label {{ "Home" | i18n }}
 
+				router-link(tag="li", to="/")
+					a(:title="_('Allelement')")
+						span.icon
+							i.fa.fa-home
+						span.label {{ "Allelement" | i18n }}
+
 				router-link(tag="li", to="/counter")
 					a(:title="_('Demo')")
 						span.icon
@@ -36,14 +42,10 @@
 						span.label {{ "Logout" | i18n }}
 
 		.footer
-			//- .social
-			//- 	a(href="", target="_blank")
-			//- 		i.fa.fa-facebook
-			//- 	a(href="https://twitter.com/Icebobcsi", target="_blank")
-			//- 		i.fa.fa-twitter
-			//- 	a(href="https://github.com/icebob/vue-express-mongo-boilerplate", target="_blank")
-			//- 		i.fa.fa-github
-			.copyright &copy; Copyright, 2016
+			.copyright &copy; 
+			| service@hc-archtech.com
+			| 浙ICP备19031611号-1
+			| Copyright, 2019
 </template>
 
 <script>

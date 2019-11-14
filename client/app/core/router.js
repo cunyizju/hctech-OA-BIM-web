@@ -4,6 +4,7 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 
 import Home from "../modules/home";
+import Allelement from "../modules/all-element";
 import Counter from "../modules/counter";
 import Devices from "../modules/devices";
 import Posts from "../modules/posts";
@@ -15,6 +16,7 @@ export default new VueRouter({
 	mode: "hash",
 	routes: [
 		{ path: "/", component: Home },
+		{ path: "/allelement", component: Allelement },
 		{ path: "/devices", component: Devices },
 		{ path: "/posts", component: Posts },
 		{ path: "/counter", component: Counter },	

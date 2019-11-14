@@ -7,10 +7,6 @@
 				h2
 					span.number 1.
 					span.text Color palette
-				.form-group
-					label(for='text5') Label for textarea
-					textarea.form-control#text5(type='text', placeholder='Placeholder', rows=6)
-					textarea.form-control#text5(type='text', placeholder='Placeholder', rows=6, columns= 4)
 				.content.flex.align-center.justify-space-around.colors
 					.box.box1
 						.caption Color #1
