@@ -4,6 +4,8 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 
 import Home from "../modules/home";
+//import Design from "../modules/design";
+import General from "../modules/design/general";
 import Allelement from "../modules/all-element";
 import Counter from "../modules/counter";
 import Devices from "../modules/devices";
@@ -16,7 +18,9 @@ export default new VueRouter({
 	mode: "hash",
 	routes: [
 		{ path: "/", component: Home },
-		{ path: "/allelement", component: Allelement },
+		//{ path: "/design", component: Design },
+		{ path: "/design/general", component: General },
+		//{ path: "/allelement", component: Allelement },
 		{ path: "/devices", component: Devices },
 		{ path: "/posts", component: Posts },
 		{ path: "/counter", component: Counter },	
