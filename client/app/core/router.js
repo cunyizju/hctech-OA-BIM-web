@@ -28,7 +28,6 @@ export default new VueRouter({
 		{ path: "/design/progress", component: Progress },
 		{ path: "/design/filemanager", component: Filemanager },
 		{ path: "/design/dwgcompare", component: Dwgcompare },
-		//{ path: "/allelement", component: Allelement },
 		{ path: "/devices", component: Devices },
 		{ path: "/posts", component: Posts },
 		{ path: "/counter", component: Counter },	

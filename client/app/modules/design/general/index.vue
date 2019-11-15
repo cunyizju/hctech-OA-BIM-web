@@ -1,5 +1,27 @@
 <template lang="pug">
 	.container
+		fieldset
+		.content.flex.align-center.justify-space-around.buttons
+			.button-group 
+				button.button 
+					i.icon.fa.fa-align-left
+					| Left
+				button.button
+					i.icon.fa.fa-align-center
+					| Middle
+				button.button
+					i.icon.fa.fa-align-right
+					| Right
+				button.button 
+					i.icon.fa.fa-align-left
+					| Left
+				button.button
+					i.icon.fa.fa-align-center
+					| Middle
+				button.button
+					i.icon.fa.fa-align-right
+					| Right
+		hr
 		h1 Style guide
 
 		.guide
@@ -9,8 +31,10 @@
 					span.text Color palette
 				.form-group
 					label(for='text5') Label for textarea
-					textarea.form-control#text5(type='text', placeholder='Placeholder', rows=6)
-					textarea.form-control#text5(type='text', placeholder='Placeholder', rows=6, columns= 4)
+					.col
+						textarea.form-control#text5(type='text', placeholder='Placeholder', rows=6)
+					.col
+						textarea.form-control#text5(type='text', placeholder='Placeholder', rows=6)
 				.content.flex.align-center.justify-space-around.colors
 					.box.box1
 						.caption Color #1
@@ -166,20 +190,7 @@
 							i.icon.fa.fa-bars
 							| Outline				
 
-				fieldset
-					legend Button group
-					.content.flex.align-center.justify-space-around.buttons
-						.button-group
-							button.button 
-								i.icon.fa.fa-align-left
-								| Left
-							button.button
-								i.icon.fa.fa-align-center
-								| Middle
-							button.button
-								i.icon.fa.fa-align-right
-								| Right
-				hr
+
 
 			section
 				h2
@@ -764,9 +775,10 @@
 
 </script>
 
+
 <style lang="scss" scoped>
 	@import "../../../../scss/themes/blurred/variables";
-	
+
 	.container {
 		padding: 0 1rem;
 	}

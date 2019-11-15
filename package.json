@@ -107,6 +107,7 @@
     "socket.io": "2.1.1",
     "socket.io-client": "2.1.1",
     "uuid-token-generator": "1.0.0",
+    "view-design": "^4.0.2",
     "winston": "3.0.0",
     "winston-daily-rotate-file": "3.3.2",
     "winston-graylog2": "1.0.3",

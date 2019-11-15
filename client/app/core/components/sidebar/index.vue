@@ -40,12 +40,6 @@
 									i.fa.fa-newspaper-o
 								span.label {{ "图纸对比" | i18n }}
 
-				//- router-link(tag="li", to="/")
-				//- 	a(:title="_('Allelement')")
-				//- 		span.icon
-				//- 			i.fa.fa-home
-				//- 		span.label {{ "Allelement" | i18n }}
-
 				router-link(tag="li", to="/counter")
 					a(:title="_('Demo')")
 						span.icon
