@@ -1,6 +1,6 @@
 <template lang="pug">
 	.container
-		h1 Style guide
+		h1 Style guidevv
 
 		.guide
 			section
