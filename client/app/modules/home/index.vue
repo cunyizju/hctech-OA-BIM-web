@@ -3,10 +3,10 @@
 		.guide
 			section
 				h2
-					.content.flex.align-center.justify-space-around.buttons
+					.content.flex.align-center.center-space-around.buttons(style='margin-bottom:0')
 						span.number 1.
 						span.text 项目概况
-						button.button(style='align:right')
+						button.button(style='align:right; margin-left:88%')
 								i.fa.fa-edit
 
 				.form-group
@@ -35,8 +35,12 @@
 						textarea.form-control#text5(style='width: 27%', type='text', placeholder='', rows=1)
 			section
 				h2
-					span.number 2.
-					span.text 结构专业概况
+					.content.flex.align-center.center-space-around.buttons(style='margin-bottom:0')
+						span.number 2.
+						span.text 结构专业概况
+						button.button(style='align:right; margin-left:85%')
+								i.fa.fa-edit
+
 				.form-group
 					.content.flex.align-center.justify-space-around.buttons
 						label(for='text5') 结构形式
@@ -59,8 +63,12 @@
 						textarea.form-control#text5(style='width: 27%; margin-left: 1.4%;', type='text', placeholder='', rows=1)
 			section
 				h2
-					span.number 3.
-					span.text 电气专业概况
+					.content.flex.align-center.center-space-around.buttons(style='margin-bottom:0')
+						span.number 3.
+						span.text 电气专业概况
+						button.button(style='align:right; margin-left:85%')
+								i.fa.fa-edit
+
 				.form-group
 					.content.flex.align-center.justify-space-around.buttons
 						label(for='text5') 负荷等级
@@ -85,8 +93,12 @@
 						textarea.form-control#text5(style='width: 27.5%; margin-left: 1.5%;', type='text', placeholder='', rows=1)
 			section
 				h2
-					span.number 4.
-					span.text 暖通专业概况
+					.content.flex.align-center.center-space-around.buttons(style='margin-bottom:0')
+						span.number 4.
+						span.text 暖通专业概况
+						button.button(style='align:right; margin-left:85%')
+								i.fa.fa-edit
+
 				.form-group
 					.content.flex.align-center.justify-space-around.buttons
 						label(for='text5') 供冷冷源
@@ -103,8 +115,12 @@
 						textarea.form-control#text5(style='width: 27.5%; margin-left: 1.5%;', type='text', placeholder='', rows=1)
 			section
 				h2
-					span.number 5.
-					span.text 给排水专业概况
+					.content.flex.align-center.center-space-around.buttons(style='margin-bottom:0')
+						span.number 5.
+						span.text 给排水专业概况
+						button.button(style='align:right; margin-left:83%')
+								i.fa.fa-edit
+												
 				.form-group
 					.content.flex.align-center.justify-space-around.buttons
 						label(for='text5') 给水方式
