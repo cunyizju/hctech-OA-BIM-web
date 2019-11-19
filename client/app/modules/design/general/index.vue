@@ -3,6 +3,16 @@
 		.guide
 			section
 				h2
+					.content.flex.align-center.justify-space-around.buttons(style='margin-bottom:0')
+						button.button
+								i.fa.fa-save
+						button.button
+								i.fa.fa-print
+						button.button
+							i.fa.fa-unlock
+							
+			section
+				h2
 					.content.flex.align-center.center-space-around.buttons(style='margin-bottom:0')
 						span.number 1.
 						span.text 项目概况
@@ -136,6 +146,10 @@
 						label(for='text5') 消防系统
 						textarea.form-control#text5(style='width: 27.5%; margin-left: 1.5%;', type='text', placeholder='', rows=1)
 
+
+						
+											
+
 </template>
 
 <script>
@@ -155,6 +169,13 @@
 	};
 
 </script>
+
+  link(href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css', rel='stylesheet', integrity='sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm', crossorigin='anonymous')
+
+  script(src='https://code.jquery.com/jquery-3.2.1.slim.min.js', crossorigin='anonymous', integrity='sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN')
+  script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js', crossorigin='anonymous', integrity='sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q')
+  script(src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js', crossorigin='anonymous', integrity='sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl')
+
 
 <style lang="scss" scoped>
 	@import "../../../../scss/themes/blurred/variables";
@@ -293,4 +314,5 @@
 		} // .box
 		
 	} // .colors
+	
 </style>
