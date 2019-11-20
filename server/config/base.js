@@ -9,13 +9,13 @@ module.exports = {
 		version: pkg.version,
 		description: pkg.description,
 		keywords: pkg.keywords.join(","),
-		url: "http://localhost:" + (process.env.PORT || 3000) + "/",
+		url: "http://localhost:" + (process.env.PORT || 4000) + "/",
 		//googleAnalyticsID: 'UA-xxxxx-x',
 		contactEmail: "hello@vem-app.com"
 	},
 
 	ip: process.env.NODE_IP || "0.0.0.0",
-	port: process.env.PORT || 3000,
+	port: process.env.PORT || 4000,
 
 	rootPath: global.rootPath,
 	dataFolder: path.join(global.rootPath, "data"),
