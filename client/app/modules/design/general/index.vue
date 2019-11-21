@@ -41,8 +41,12 @@
 						textarea.form-control#text5(style='width: 27%', type='text', placeholder='', rows=1)
 						label(for='text5') 建筑高度
 						textarea.form-control#text5(style='width: 27%', type='text', placeholder='', rows=1)
-						label(for='text5') 防水等级
-						textarea.form-control#text5(style='width: 27%', type='text', placeholder='', rows=1)
+						label(for='select1') 防水等级
+						select.form-control#select1(style='width:27%')
+							option 一级
+							option 二级
+							option 三级 
+							option 四级
 			section
 				h2
 					.content.flex.align-center.center-space-around.buttons(style='margin-bottom:0')
@@ -56,9 +60,17 @@
 						label(for='text5') 结构形式
 						textarea.form-control#text5(style='width: 27%', type='text', placeholder='', rows=1)
 						label(for='text5') 抗震等级
-						textarea.form-control#text5(style='width: 27%', type='text', placeholder='', rows=1)
+						select.form-control#select2(style='width:27%')
+							option 三级
+							option 四级
+							option 五级 
+							option 六级
+							option 七级
+							option 八级
 						label(for='text5') 设防烈度
-						textarea.form-control#text5(style='width: 27%', type='text', placeholder='', rows=1)
+						select.form-control#select3(style='width:27%')
+							option 六度
+							option 七度
 				.form-group
 					.content.flex.align-center.justify-space-around.buttons
 						label(for='text5') 基础形式
@@ -66,11 +78,19 @@
 						label(for='text5') 有关超限
 						textarea.form-control#text5(style='width: 27%', type='text', placeholder='', rows=1)
 						label(for='text5') 场地类别
-						textarea.form-control#text5(style='width: 27%', type='text', placeholder='', rows=1)
+						select.form-control#select4(style='width:27%')
+							option 一级
+							option 二级
+							option 三级
+							option 四级
 				.form-group(style='margin-left: 0.7%;')
 					.content.flex.align-center.center-space-around.buttons
 						label(for='text5') 抗渗等级
-						textarea.form-control#text5(style='width: 27%; margin-left: 1.4%;', type='text', placeholder='', rows=1)
+						select.form-control#select5(style='width:27%')
+							option 一级
+							option 二级
+							option 三级
+							option 四级
 			section
 				h2
 					.content.flex.align-center.center-space-around.buttons(style='margin-bottom:0')
@@ -86,7 +106,11 @@
 						label(for='text5') 供电电源
 						textarea.form-control#text5(style='width: 27%', type='text', placeholder='', rows=1)
 						label(for='text5') 防雷级别
-						textarea.form-control#text5(style='width: 27%', type='text', placeholder='', rows=1)
+						select.form-control#select6(style='width:27%')
+							option 一级
+							option 二级
+							option 三级
+							option 四级
 				.form-group
 					.content.flex.align-center.justify-space-around.buttons
 						label(for='text5') 照度标准
