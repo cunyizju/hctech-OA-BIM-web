@@ -1,6 +1,6 @@
 <template lang="pug">
 	.container
-		h1 Style guide
+		h1 进程概览
 
 		.guide
 			section
