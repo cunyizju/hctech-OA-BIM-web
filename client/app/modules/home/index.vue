@@ -11,22 +11,6 @@
 
 				.form-group
 					.content.flex.align-center.justify-space-around.buttons
-						label(for='text5') 项目名称
-						textarea.form-control#text5(style='width: 27%', type='text', placeholder='', rows=1)
-						label(for='text5') 建筑面积
-						textarea.form-control#text5(style='width: 27%', type='text', placeholder='', rows=1)
-						label(for='text5') 耐火等级
-						textarea.form-control#text5(style='width: 27%', type='text', placeholder='', rows=1)
-				.form-group
-					.content.flex.align-center.justify-space-around.buttons
-						label(for='text5') 建设单位
-						textarea.form-control#text5(style='width: 27%', type='text', placeholder='', rows=1)
-						label(for='text5') 占地面积
-						textarea.form-control#text5(style='width: 27%', type='text', placeholder='', rows=1)
-						label(for='text5') 人防等级
-						textarea.form-control#text5(style='width: 27%', type='text', placeholder='', rows=1)
-				.form-group
-					.content.flex.align-center.justify-space-around.buttons
 						label(for='text5') 设计部门
 						textarea.form-control#text5(style='width: 27%', type='text', placeholder='', rows=1)
 						label(for='text5') 建筑高度
