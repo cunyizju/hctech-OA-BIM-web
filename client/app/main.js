@@ -3,7 +3,7 @@
 require("es6-promise/auto");
 
 import Vue from "vue";
-
+import $ from "jquery";
 import axios from "axios";
 axios.defaults.headers.post["Content-Type"] = "application/json";
 
@@ -14,6 +14,9 @@ import VueWebsocket from "vue-websocket";
 
 import store from "./core/store";
 import App from "./core/App";
+//import "bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.min";
 
 Vue.use(Filters);
 

@@ -35,6 +35,11 @@ module.exports = merge(baseWpConfig, {
 
 	plugins: [
 		new webpack.HotModuleReplacementPlugin(),
-		new webpack.NoEmitOnErrorsPlugin()
+		new webpack.NoEmitOnErrorsPlugin(),
+		new webpack.ProvidePlugin({
+			$: "jquery",
+			jQuery: "jquery",
+			"windows.jQuery": "jquerey"
+		})
 	]
 });

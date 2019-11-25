@@ -80,6 +80,11 @@ module.exports = merge(baseWpConfig, {
 
 		new MiniCssExtractPlugin({
 			filename: "styles/[name].css"
+		}), 
+		new webpack.ProvidePlugin({
+			$: "jquery",
+			jQuery: "jquery",
+			"windows.jQuery": "jquerey"
 		})
 
 		/*new StatsPlugin(path.resolve(__dirname, "stats.json"), {

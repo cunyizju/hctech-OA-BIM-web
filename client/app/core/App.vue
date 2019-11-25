@@ -12,16 +12,16 @@
 </template>
 
 <script>
-	import Vue from "vue";
-	import ViewUI from 'view-design';
+	// import Vue from "vue";
+	// import ViewUI from 'view-design';
 	import PageHeader from "./components/header/index";
 	import Sidebar from "./components/sidebar/index";
-	import locale from 'view-design/dist/locale/en-US';
+	// import locale from 'view-design/dist/locale/en-US';
 
 	import Service from "./service";
 
 	import { mapActions, mapGetters } from "vuex";
-	Vue.use(ViewUI, { locale });
+	// Vue.use(ViewUI, { locale });
 
 	/*
 		// Fix Facebook not showing index
